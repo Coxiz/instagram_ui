@@ -222,11 +222,11 @@ class ProfilePage extends StatelessWidget {
         GridView.builder(
           shrinkWrap: true,
           physics: NeverScrollableScrollPhysics(),
-          itemCount: 3,
+          itemCount: 189,
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 10, crossAxisSpacing: 5, mainAxisExtent: 5),
+              crossAxisCount: 3, crossAxisSpacing: 5, mainAxisSpacing: 5),
           itemBuilder: (context, index) => Image.network(
-            "https://picsum.photos/536/354?random=${index + 1}",
+            "https://picsum.photos/200/300?random=${index + 1}",
             fit: BoxFit.cover,
           ),
         ),
