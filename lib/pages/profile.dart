@@ -226,7 +226,7 @@ class ProfilePage extends StatelessWidget {
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 3, crossAxisSpacing: 5, mainAxisSpacing: 5),
           itemBuilder: (context, index) => Image.network(
-            "https://picsum.photos/200/300?random=${index + 1}",
+            "https://picsum.photos/200/300?random=1",
             fit: BoxFit.cover,
           ),
         ),
